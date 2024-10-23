@@ -3,7 +3,6 @@ services:
   mining:
     image: swanchain254/iron_mainnet_f2pool:latest
     env:
-      - MINER_URL=stratum+tcp://iron-asia.f2pool.com:1500
       - ACCOUNTNAME=rootabc
       - WORKNAME=work-001
     expose:
